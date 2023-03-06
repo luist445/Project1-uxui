@@ -1,1 +1,4 @@
 # Project1-uxui
+
+## Why my project is incomplete:
+#### I had trouble merging the branches because there was a lot of security issues and I had a hard time understanding why this was the case. I emailed you about it and sadly I could not figure it out. I even left early on Wednesday so that I can focus and figure it out but I couldn't. Unfortunately, some things got in the way and had to do it over the weekend. At first, I had a structure very similar to your demo but it would not run so I decided to restart from scratch. This is a product of that. It constantly gives me vulnerabilities warning and that disrupts the things I was trying to do. I even looked up websites on how to fix it but I still couldn't figure it how. I apologize for my irresponsible behavior and I would like to know if there is way I can make it up by handing it late or something to that effect. I truly apologize as this is not who I am.
