@@ -1,12 +1,15 @@
 .content{
     text-align: center;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px;
 }
 
 h1{
   text-decoration: none;
-  color: hotpink;
-  background-color: lavender;
   padding: 10px;
   border-radius: 25px;
   margin: 20px;

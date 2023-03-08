@@ -1,0 +1,13 @@
+.main{
+    background-color: purple;
+    text-align: center;
+}
+
+.content{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    height: 400px;
+    width: 285px;
+    object-fit: cover;
+    margin: 20px 0px;
+}   

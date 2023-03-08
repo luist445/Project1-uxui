@@ -1,6 +1,7 @@
 import './App.css'
 import Homepage from './components/Homepage';
-import {Routes, Route, Outlet, Link} from "react-router-dom";
+import Food from './components/Food'
+import { BrowserRouter as Routes, Route, Outlet, Link} from "react-router-dom";
 
 export default function App() {
   return(
@@ -8,6 +9,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route index element={<Homepage />} />
+        <Route path="Food" element={<Food />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
@@ -25,6 +27,9 @@ function Layout() {
             <Link style={navStyle} to="/">Home</Link>
           </li>
         </ul>
+        <li>
+          <Link style={navStyle} to="/Food">Food</Link>
+        </li>
       </nav>
       <hr/>
       <Outlet />
