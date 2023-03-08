@@ -18,7 +18,7 @@ export default function App() {
 
 }
 
-const navStyle = {textDecoration: "none", color: "red"}
+const navStyle = {textDecoration: "none", color: "black"}
 function Layout() {
   return(
     <div>
