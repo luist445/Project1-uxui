@@ -1,11 +1,12 @@
 import './App.css'
 import Homepage from './components/Homepage';
 import Food from './components/Food'
-import { BrowserRouter as Routes, Route, Outlet, Link} from "react-router-dom";
+import { Routes, Route, Outlet, Link} from "react-router-dom";
 
 export default function App() {
   return(
     <div className="App">
+      <Layout />
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route index element={<Homepage />} />
@@ -26,10 +27,10 @@ function Layout() {
           <li>
             <Link style={navStyle} to="/">Home</Link>
           </li>
-        </ul>
-        <li>
+          <li>
           <Link style={navStyle} to="/Food">Food</Link>
-        </li>
+          </li>
+        </ul>
       </nav>
       <hr/>
       <Outlet />
