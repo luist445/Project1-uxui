@@ -1,6 +1,8 @@
 import './App.css'
 import Homepage from './components/Homepage';
-import Food from './components/Food'
+import Food from './components/Food';
+import Lodging from './components/Lodging';
+import Attractions from './components/Attractions';
 import { Routes, Route, Outlet, Link} from "react-router-dom";
 
 export default function App() {
@@ -11,6 +13,8 @@ export default function App() {
         <Route path="/" element={<Layout />} />
         <Route index element={<Homepage />} />
         <Route path="Food" element={<Food />} />
+        <Route path="Lodging" element={<Lodging />} />
+        <Route path="Attractions" element={<Attractions />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
@@ -29,6 +33,12 @@ function Layout() {
           </li>
           <li>
           <Link style={navStyle} to="/Food">Food</Link>
+          </li>
+          <li>
+          <Link style={navStyle} to="/Attractions">Attractions</Link>
+          </li>
+          <li>
+          <Link style={navStyle} to="/Lodging">Places to Stay</Link>
           </li>
         </ul>
       </nav>
