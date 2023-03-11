@@ -1,13 +1,21 @@
 .main{
-    background-color: purple;
     text-align: center;
-}
-
-.content{
+    color: black;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 5px;
-    height: 400px;
-    width: 285px;
-    object-fit: cover;
-    margin: 20px 0px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
 }   
+
+.seafood, .devilfruits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
